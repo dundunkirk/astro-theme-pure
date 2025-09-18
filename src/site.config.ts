@@ -3,17 +3,17 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // === Basic configuration ===
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: 'Astro Theme Pure',
+  title: "Zikun Chen's Thoughts",
   /** Will be used in index page & copyright declaration */
-  author: 'Pure Lab',
+  author: 'Zikun Chen',
   /** Description metadata for your website. Can be used in page metadata. */
-  description: 'Stay hungry, stay foolish',
+  description: 'No excuses, just do it.',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
   favicon: '/favicon/favicon.ico',
   /** Specify the default language for this site. */
   locale: {
-    lang: 'en-US',
-    attrs: 'en_US',
+    lang: 'zh-CN', // en-US
+    attrs: 'zh-CN',
     // Date locale
     dateLocale: 'en-US',
     dateOptions: {
@@ -58,8 +58,8 @@ export const theme: ThemeUserConfig = {
   /** Configure the footer of your site. */
   footer: {
     // Year format
-    year: `© ${new Date().getFullYear()}`,
-    // year: `© 2019 - ${new Date().getFullYear()}`,
+    // year: `© ${new Date().getFullYear()}`,
+    year: `© 2025 - ${new Date().getFullYear()}`,
     links: [
       // Registration link
       {
@@ -82,7 +82,7 @@ export const theme: ThemeUserConfig = {
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: true,
     /** Optional details about the social media accounts for this site. */
-    social: { github: 'https://github.com/cworld1/astro-theme-pure' }
+    social: { github: 'https://github.com/dundunkirk' }
   },
 
   content: {
