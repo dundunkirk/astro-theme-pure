@@ -12,8 +12,8 @@ export const theme: ThemeUserConfig = {
   favicon: '/favicon/favicon.ico',
   /** Specify the default language for this site. */
   locale: {
-    lang: 'zh-CN', // en-US
-    attrs: 'zh-CN',
+    lang: 'en-US', // en-US
+    attrs: 'en-US',
     // Date locale
     dateLocale: 'en-US',
     dateOptions: {
@@ -48,7 +48,7 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: 'Blog', link: '/blog' },
-      { title: 'Docs', link: '/docs' },
+      // { title: 'Docs', link: '/docs' },
       { title: 'Projects', link: '/projects' },
       { title: 'Links', link: '/links' },
       { title: 'About', link: '/about' }
